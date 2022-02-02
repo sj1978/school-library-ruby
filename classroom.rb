@@ -2,6 +2,7 @@ require './student'
 
 class Classroom
   attr_accessor :label
+  attr_reader :student
 
   def initialize(label)
     @label = label
@@ -10,6 +11,6 @@ class Classroom
 
   def add_student(student)
     @student.push(student)
-    student.class_room = self
+    student.classroom = self
   end
 end
