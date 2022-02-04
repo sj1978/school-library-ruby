@@ -39,6 +39,7 @@ class Main
     end
   end
 
+  # rubocop:enable Metrics/CyclomaticComplexity
   def add_book
     puts 'Title: '
     title = gets.chomp
