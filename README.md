@@ -6,7 +6,8 @@
 > Application created with Ruby
 
 
-
+# Screenshot
+![screenshot](/img/screenshot.png)
 ## Built With
 
 - Major languages: Ruby
