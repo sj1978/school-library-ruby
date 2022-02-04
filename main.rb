@@ -117,7 +117,7 @@ class Main
     start
   end
 
-  def display_rentals
+  def display_rental
     print 'ID of person: '
     person_id = gets.chomp.to_i
     person = @people_list.select { |target| target.id == person_id }[0]
